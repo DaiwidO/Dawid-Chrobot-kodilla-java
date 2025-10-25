@@ -71,7 +71,7 @@ class BookDirectoryTestSuite {
 
             assertEquals(0, theListOfBooks0.size());                                         // [14]
             assertEquals(15, theListOfBooks15.size());                                       // [15]
-            assertEquals(0, theListOfBooks40.size());                                        // [16]
+            assertEquals(40, theListOfBooks40.size());                                        // [16]
         }
 
     @Test
