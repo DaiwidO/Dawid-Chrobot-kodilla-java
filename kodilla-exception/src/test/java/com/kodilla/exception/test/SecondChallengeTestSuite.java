@@ -81,11 +81,18 @@ public class SecondChallengeTestSuite {
 
             @Test
             void testWhenArgumentsAreValid2() {
+                //Given
+                String result = "";
+
                 //When
-                String result = secondChallenge.probablyIWillThrowException(1.4, 2.0);
+                try {
+                    result = secondChallenge.probablyIWillThrowException(1.4, 2.0);
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
 
                 //Then
-                assertEquals("Done!",result);
+                assertEquals("Done!", result);
             }
         }
     }
