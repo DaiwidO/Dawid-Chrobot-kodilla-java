@@ -18,7 +18,7 @@ public class OrderRequest {
         return supplier;
     }
 
-    public Food getProduct() {
+    public Food getFood() {
         return food;
     }
 

@@ -3,18 +3,18 @@ package com.kodilla.good.patterns.food2door.model;
 public class Food {
 
     private String name;
-    private String productID;
+    private String productId;
 
-    public Food(String name, String productID) {
+    public Food(String name, String productId) {
         this.name = name;
-        this.productID = productID;
+        this.productId = productId;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getProductID() {
-        return productID;
+    public String getProductId() {
+        return productId;
     }
 }

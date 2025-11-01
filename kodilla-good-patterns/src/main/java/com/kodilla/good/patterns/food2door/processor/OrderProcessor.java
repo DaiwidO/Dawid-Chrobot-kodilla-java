@@ -8,6 +8,4 @@ public class OrderProcessor {
     public void processOrder(FoodSupplier foodSupplier, OrderRequest orderRequest){
         foodSupplier.process(orderRequest);
     }
-
-
 }
