@@ -6,6 +6,6 @@ public class OrderRequestRetriever {
         User user1 = new User("Mateusz", "Kowalski",
                 "MateruszKowalski@gmail.com", "Sienkiewicza 3");
         Product toothbrush = new Product("toothbrush", "12345");
-        return new OrderRequest(user1, toothbrush, 2);
+        return new OrderRequest(user1, toothbrush, 5);
     }
 }
